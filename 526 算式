@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b, c, X;
+    
+    cin >> a >> b >> c >> X;
+    cout<<"ans=" << a*X*X+b*X+c;
+
+    return 0;
+}
+//題目有多筆輸入
+
+//每一列: 4個整數 a, b, c, X
+
+//輸出說明
+//對每一列輸出 ans=aX2+bX+c
