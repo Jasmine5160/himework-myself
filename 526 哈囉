@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string name ;
+    
+    while( cin >> name) 
+    {
+        cout<<"Hello," << name;
+    }
+    //cout<<"Hello," << "b" ;
+    //cout<<"Hello," << "c" ;
+
+    return 0;
+}
+
+//輸入說明 ： 輸入指定的文字
+
+//輸出說明 ： 輸出指定的文字
+
+//world
+//C++
+//mary
+
+//hello, world
+//hello, C++
+//hello, mary
