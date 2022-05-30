@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a ,b;
+    
+    while(cin >> a >> b )
+    {
+    if(a%b == 0)
+    {
+    cout << "Yes";
+    }
+    else
+    {
+    cout << "No";
+    }
+    }
+
+    return 0;
+}
+
+//題目有多筆輸入
+
+//每一列: 2個整數 a, b
+
+//輸出說明
+//對每一列輸出 a是不是b的倍數。
+
+//是 輸出Yes
+
+//不是 輸出No
