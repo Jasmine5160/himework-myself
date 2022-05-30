@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int grade1 ,grade2 ;
+    
+    while(cin >> grade1 >>grade2 )
+    {
+    if(grade1 >= 60 and grade2 >= 60)
+    {
+        cout <<" PASS " ;
+    }
+    else 
+    {
+        cout <<"FAIL" ;
+    }
+    }
+    return 0;
+}
+
+//每一列輸入兩次段考成績，如果兩次都及格，學期成績才會及格。
+
+//及格輸出PASS，否則輸出FAIL。
