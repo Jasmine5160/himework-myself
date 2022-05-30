@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int visa ,cash ;
+    
+    while(cin >> visa >>cash)
+    {
+        if(visa >= 12980 or cash >= 12980)
+        {
+            cout <<"PS4" ;
+        }
+        else
+        {
+            cout << "QQ";
+        }
+    }
+
+    return 0;
+}
+
+//PS4一台要價12980元。小鳴非常想要一台。
+
+//小鳴有一張信用卡和一些現金。
+
+//不過買東西時，只能選擇一種付款方式，沒辦法混合使用。
+
+
+//每一列輸入 信用卡餘額 及 現金 ，其中一個大於等於12980即可購買PS4。
+
+//可購買時輸出PS4，否則輸出QQ。
