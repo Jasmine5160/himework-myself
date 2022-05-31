@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int sex;
+    int age;
+    
+    cin >> sex >> age;
+    
+    if( sex==1 and age>=18 )
+    {
+        cout<<"You are marriageable." << endl;
+    }    
+    if( sex==1 and age<18 )
+    {
+        cout<<"You are NOT marriageable." << endl; 
+    }
+    if( sex==2 and age>=16 )
+    {
+        cout<<"You are marriageable." << endl;
+    }
+    if( sex==2 and age<16 )
+    { 
+        cout<<"You are NOT marriageable." << endl;
+    }
+
+    return 0;
+}
