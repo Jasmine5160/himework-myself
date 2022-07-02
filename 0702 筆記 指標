@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void) {
+    int b = 2;
+
+    printf("變數 b 的值：%d\n", b);//%d =一個整數  \n =換行
+    printf("變數 b 的值：%d\n", *&b); //%p為印出地址的16進位表示法
+
+    return 0;
+}
+
+https://kopu.chat/c%e8%aa%9e%e8%a8%80-%e8%b6%85%e5%a5%bd%e6%87%82%e7%9a%84%e6%8c%87%e6%a8%99%ef%bc%8c%e5%88%9d%e5%ad%b8%e8%80%85%e8%ab%8b%e9%80%b2%ef%bd%9e/
